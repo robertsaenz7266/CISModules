@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/moneymac/.dotnet/store/|arch|/|tfm|",
+      "/Users/moneymac/.nuget/packages"
+    ]
+  }
+}
