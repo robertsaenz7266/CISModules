@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{53C09F29-4A3A-419B-9FBF-EE09F8642A0D}|Default">
   <MonoDevelop.Ide.ItemProperties.CISModule2 PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CISModule2/Views/Home/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CISModule2/Views/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="CISModule2/Views/Shared/_Layout.cshtml" Line="23" Column="14" />
-      <File FileName="CISModule2/Views/Home/Index.cshtml" Line="8" Column="1" />
+      <File FileName="CISModule2/Views/Shared/_Layout.cshtml" Line="36" Column="19" />
+      <File FileName="CISModule2/Views/Home/Index.cshtml" />
       <File FileName="CISModule2/Views/Home/Privacy.cshtml" />
     </Files>
     <Pads>
@@ -14,15 +14,18 @@
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
                 </Node>
-                <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
