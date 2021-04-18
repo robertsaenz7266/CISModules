@@ -31,7 +31,14 @@ namespace CISModule2.Controllers
         {
             return View();
         }
+        public IActionResult SaveUser(string UserName,
+           string Password)
+        {
+            string myResult = $"the user is:" + UserName +
+                $" the password is:" + Password;
 
+            return Content(myResult);
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
