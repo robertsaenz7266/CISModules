@@ -34,3 +34,4 @@
 /Users/moneymac/Desktop/CISModules/CISModule2/CISModule2/obj/Debug/netcoreapp3.1/CISModule2.pdb
 /Users/moneymac/Desktop/CISModules/CISModule2/CISModule2/obj/Debug/netcoreapp3.1/CISModule2.genruntimeconfig.cache
 /Users/moneymac/Desktop/CISModules/CISModule2/CISModule2/obj/Debug/netcoreapp3.1/CISModule2.csproj.CopyComplete
+/Users/moneymac/Desktop/CISModules/CISModule2/CISModule2/obj/Debug/netcoreapp3.1/Razor/Views/Home/Register.cshtml.g.cs
