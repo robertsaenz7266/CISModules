@@ -39,6 +39,10 @@ namespace CISModule2.Controllers
 
             return Content(myResult);
         }
+        public IActionResult UserProfile()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

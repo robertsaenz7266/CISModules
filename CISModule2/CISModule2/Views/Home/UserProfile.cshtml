@@ -1,0 +1,66 @@
+﻿<form>
+    <fieldset>
+        <legend>User Personal Information</legend>
+        <table>
+            <style>
+                select{
+                    width:440px;
+                }
+            </style>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="FirstName">First Name:</label>
+                        </td>
+                    <td>
+                        <input type="text" id="FirstName" placeholder="Add First Name here" />
+                        <label for="LastName">Last Name:</label>
+                        <input type="text" id="LastName" placeholder="Add Last Name here" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Gender:</label>
+                    </td>
+                    <td colspan="2">
+                        <input type="radio" id="MaleGender" name="Gender" />
+                        <label for="MaleGender">Male</label>
+                        <input type="radio" id="FemaleGender" name="Gender" />
+                        <label for="FemaleGender">Female</label>
+                        <input type="radio" id="NoResponseGender" name="Gender" />
+                        <label for="NoResponseGender">Prefer not to respond</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="EmailAddress">Email Address:</label>
+                    </td>
+                    <td colspan="2">
+                        <input size="53" type="email" id="EmailAddress" placeholder="Add Your Email Address" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="CountryOfResidence">Country Of Residence:</label>
+                    </td>
+                    <td>
+                        <select name="Country" id="CountryOfResidence">
+                            <option>USA</option>
+                            <option>United Kingdom</option>
+                            <option>Japan</option>
+                            <option>Mexico</option>
+                            <option>China</option>
+                            <option>France</option>
+                            <option>Germany</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Update User Information" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+</form>

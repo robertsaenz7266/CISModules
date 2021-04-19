@@ -7,25 +7,35 @@
     </head>
 <body>
     <header>
+        <style>
+            img {
+                width: 200px;
+                height: 200px;
+            }
+
+            #UserIcon {
+                width: 30px;
+                height: 30px;
+            }
+        </style>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">My Gram</a>
-<div class="container">
-<button id="Btn1">Log In</button>
-            </div>
-            <div>
-                <button>
-                    <a href="https://localhost:5001/Home/register"> Sign Up
-                </button>
-                </a>
-            </div>
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">My Gram</a>
+                </div>
+            <div class="container" id="container">
+                <button id="Btn1">Log In</button>
+                <a href="~/Home/Register"><button>Sign Up</button></a>
+            <a href="~/Home/UserProfile"> <img id="UserIcon" alt="UserIcon" src="~/Images/UserIcon.png" /></a>
+                </div>
         </nav>
     </header>
-  
+  <div class="container">
     <main role="main" class="pb-3">
         @RenderBody()
     </main>
+      </div>
     <footer class="border-top footer text-muted">
-        <div>
+        <div class="container">
             <a href="https://www.google.com/" target="_blank">
                 About
             </a>
