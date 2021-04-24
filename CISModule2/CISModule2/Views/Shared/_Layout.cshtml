@@ -7,27 +7,19 @@
     </head>
 <body>
     <header>
-        <style>
-            img {
-                width: 200px;
-                height: 200px;
-            }
-
-            #UserIcon {
-                width: 30px;
-                height: 30px;
-            }
-        </style>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">My Gram</a>
+                <a id="MyGram" class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">My Gram</a>
+               </div>
+            <div class="container">
+                <input id="search" type="text" placeholder="search" />
                 </div>
-            <div class="container" id="container">
-                <button id="Btn1">Log In</button>
-                <a href="~/Home/Register"><button>Sign Up</button></a>
-            <a href="~/Home/UserProfile"> <img id="UserIcon" alt="UserIcon" src="~/Images/UserIcon.png" /></a>
+                <div class="container" id="container">
+                    <button>Log In</button>
+                    <a href="~/Home/Register"><button>Sign Up</button></a>
+                    <a href="~/Home/UserProfile"> <img id="UserIcon" alt="UserIcon" src="~/Images/UserIcon.png" /></a>
                 </div>
-        </nav>
+</nav>
     </header>
   <div class="container">
     <main role="main" class="pb-3">
@@ -36,26 +28,26 @@
       </div>
     <footer class="border-top footer text-muted">
         <div class="container">
-            <a href="https://www.google.com/" target="_blank">
+            <a id="links" href="https://www.google.com/" target="_blank">
                 About
             </a>
-            <a download="_blank" href="https://neilpatel.com/wp-content/uploads/2017/08/blog.jpg">
+            <a id="links" download="_blank" href="https://neilpatel.com/wp-content/uploads/2017/08/blog.jpg">
                 Blogs
             </a>
-            <a download="_blank" href="https://www.businessinsider.in/photo/72532929/These-jobs-may-disappear-in-the-coming-years-with-the-advancement-in-technology.jpg?imgsize=27423">
+            <a id="links" download="_blank" href="https://www.businessinsider.in/photo/72532929/These-jobs-may-disappear-in-the-coming-years-with-the-advancement-in-technology.jpg?imgsize=27423">
                 Jobs
             </a>
-            <a href="https://www.google.com/" target="_blank">
+            <a id="links" href="https://www.google.com/" target="_blank">
                 Help
             </a>
-            <a download="_blank" href="https://fluencycorp.com/wp-content/uploads/2019/01/hardest-part-learning-english.jpg">
+            <a id="links" download="_blank" href="https://fluencycorp.com/wp-content/uploads/2019/01/hardest-part-learning-english.jpg">
                 English
             </a>
-            <a href="https://en.wikipedia.org/wiki/2021" target="_blank">
+            <a id="links" href="https://en.wikipedia.org/wiki/2021" target="_blank">
                 2021
             </a>
 
-            <a href="#Top">
+            <a id="links" href="#Top">
                 My Gram
                 </a>
         </div>

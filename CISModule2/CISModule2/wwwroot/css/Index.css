@@ -1,0 +1,19 @@
+﻿
+#Follow {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+
+#UserIcon {
+    width: 30px;
+    height: 30px;
+}
+
+

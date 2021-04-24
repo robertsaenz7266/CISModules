@@ -1,22 +1,24 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+<link rel="stylesheet" href="~/css/Index.css" />
 <p>
     <table>
         <thead>
+
+        </thead>
         <tbody>
             <tr>
                 <td rowspan="3">
-                    <img src="~/Images/dark_knight_thejoker.jpeg" />
+                    <img src="~/Images/dark_knight_thejoker.jpeg"/>
                 </td>
                 <td>
-                    Robert Saenz            <input type="button" value="Follow" />
+                    Robert Saenz            <input id="Follow" type="button" value="Follow" />
                 </td>
             </tr>
             <tr>
-                <td>
-                    100 Posts                300 Followers                    74 Following
+                <td id="UserInfo">
+                    <b>100</b>Posts                <b>300</b>Followers                    <b>74</b>Following
                 </td>
             </tr>
             <tr>
@@ -25,7 +27,6 @@
                 </td>
             </tr>
         </tbody>
-        </thead>
     </table>
 </p>
 
@@ -51,16 +52,6 @@
         </tr>
     </thead>
     <tbody>
-        <style>
-            img {
-                width: 200px;
-                height: 200px;
-            }
-            #UserIcon{
-                width:30px;
-                height:30px;
-            }
-        </style>
         <tr>
             <td>
                 <img alt="High Voltage Sign" src="~/Images/Highvoltage.jpeg" /><br />
@@ -84,6 +75,7 @@
                        style="width:200px;height:200px;">
                     <source src="~/Videos/sample.mp4"
                             type="video/mp4" />
+                    </video>
         </tr>
 
     </tbody>
