@@ -6,6 +6,11 @@
     border-color: white;
     border-style: solid;
 }
+#Follow:hover {
+        color: white;
+        background-color: royalblue;
+        text-decoration: none;
+    }
 img {
     width: 200px;
     height: 200px;
@@ -14,6 +19,19 @@ img {
 #UserIcon {
     width: 30px;
     height: 30px;
+}
+#table, img {
+    position: center;
+    margin-left:auto;
+    margin-right: auto;
+}
+#links2, section {
+    color: grey;
+    text-decoration: none;
+    text-align:center;
+}
+#links2:hover{
+    color:black;
 }
 
 

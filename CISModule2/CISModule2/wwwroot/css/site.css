@@ -85,13 +85,21 @@ img {
     height: 30px;
 }
 
-button {
+.button {
     background-color: dodgerblue;
     color: white;
-    border-radius: 5px;
+    padding: 5px 15px 5px 10px;
+    border-radius: 10px;
     border-color: white;
     border-style: solid;
+    text-decoration: none;
 }
+    .button:hover {
+        color: white;
+        background-color: royalblue;
+        text-decoration: none;
+
+    }
 
 #search {
     border-style: solid;
@@ -100,6 +108,8 @@ button {
 
 .pb-3 {
     background-color: #fafafa;
+   
+
 }
 
 footer, #links {
