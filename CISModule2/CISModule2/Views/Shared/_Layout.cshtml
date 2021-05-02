@@ -10,22 +10,42 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <a id="MyGram" class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">My Gram</a>
-               </div>
+            </div>
             <div class="container">
                 <input id="search" type="text" placeholder="search" />
-                </div>
-                <div class="container" id="container">
-                    <a class="button" href="~/Home/LogIn">Log In</a>
-                    <a class="button" href="~/Home/Register">Sign Up</a>
-                    <a href="~/Home/UserProfile"> <img id="UserIcon" alt="UserIcon" src="~/Images/UserIcon.png" /></a>
-                </div>
-</nav>
+            </div>
+            <div class="container" id="container">
+                <a class="button" href="~/Home/LogIn">Log In</a>
+                <a class="button" href="~/Home/Register">Sign Up</a>
+                <a href="~/Home/UserProfile"> <img id="UserIcon" alt="UserIcon" src="~/Images/UserIcon.png" /></a>
+            </div>
+        </nav>
     </header>
-  <div class="container">
-    <main role="main" class="pb-3">
-        @RenderBody()
-    </main>
-      </div>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <div id="FooterFollow">
+        <table id="table">
+            <tr colspan="1">
+                <td>
+                    <span>Log In to My Gram</span>
+                </td>
+                <td>
+                    <a class="button2" href="~/Home/LogIn">Log In</a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="1">
+                    <span>Log in to see photos and videos from friends and discover other accounts you'll love.</span>
+                </td>
+                <td colspan="1">
+                    &nbsp;&nbsp;&nbsp;&nbsp; <a id="SignUp" href="~/Home/Register">Sign Up</a>
+                </td>
+            </tr>
+        </table>
+    </div>
     <footer class="border-top footer text-muted">
         <div class="container">
             <a id="links" href="https://www.google.com/" target="_blank">
@@ -49,7 +69,7 @@
 
             <a id="links" href="#Top">
                 My Gram
-                </a>
+            </a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
